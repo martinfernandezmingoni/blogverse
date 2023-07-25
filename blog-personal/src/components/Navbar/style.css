@@ -1,0 +1,43 @@
+/* 
+.navi{
+  display: flex;
+}
+
+.me-auto {
+  margin-right: 15px!important;
+}
+
+.logoNav{
+  height: 70px;
+}
+
+.links{
+  color: white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.links li a, #navbarScrollingDropdown {
+  width: auto;
+  align-items: center;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  font-weight:500;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.active{
+  border-bottom: 2px solid white;
+}
+
+.dropdown {
+  color: black!important;
+  display: inline-block;   
+} */
