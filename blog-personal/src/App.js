@@ -14,10 +14,10 @@ const App = () => {
       <div className="app-container">
         <Routes>
           
-          <Route exact path="/" component={Home} />
-          <Route path="/new" component={NewPostForm} />
-          <Route path="/posts" component={PostList} />
-          <Route path="/post/:postId" component={PostDetails} />
+          <Route exact path="/" element={<Home/>} />
+          <Route path="/new" element={<NewPostForm/>} />
+          <Route path="/todos" element={<PostList/>} />
+          <Route path="/post/:postId" element={<PostDetails/>} />
         
         </Routes>
       </div>

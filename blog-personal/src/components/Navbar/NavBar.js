@@ -21,13 +21,14 @@ function Navibar() {
           >
             <Link to="/" className="nav-link text-light">Home</Link>
             <NavDropdown title="Blogs" id="navbarScrollingDropdown">
-              <Link to="/generales" className="dropdown-item text-dark">Generales</Link>
-              <Link to="/autoayuda" className="dropdown-item text-dark">Auto Ayuda</Link>
-              <Link to="/politica" className="dropdown-item text-dark">Politica</Link>
-              <Link to="/futbol" className="dropdown-item text-dark">Futbol</Link>
+              <Link to="/todos" className="dropdown-item text-light">Todos los Blogs</Link>
+              <Link to="/generales" className="dropdown-item text-light">Generales</Link>
+              <Link to="/autoayuda" className="dropdown-item text-light">Auto Ayuda</Link>
+              <Link to="/politica" className="dropdown-item text-light">Politica</Link>
+              <Link to="/futbol" className="dropdown-item text-light">Futbol</Link>
             </NavDropdown>
             <Link to="/contacto" className="nav-link text-light">Contacto</Link>
-            <Link to="/crear" className="nav-link text-light">Crea tu Blog</Link>
+            <Link to="/new" className="nav-link text-light">Crea tu Blog</Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control

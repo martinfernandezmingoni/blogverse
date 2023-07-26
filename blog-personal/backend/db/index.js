@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const mongoConnect = async () => {
   try{
-    await  mongoose.connect('mongodb+srv://gaiagames:gaiagames@eccomerce.bwoogg4.mongodb.net/test')
+    await  mongoose.connect('mongodb+srv://gaiagames:gaiagames@eccomerce.bwoogg4.mongodb.net/blogverse')
     console.log('Db is Connected')
   }catch(error){
     console.log(error)
