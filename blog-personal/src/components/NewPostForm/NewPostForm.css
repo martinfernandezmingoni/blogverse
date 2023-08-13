@@ -1,30 +1,35 @@
-.new-post-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin: 20px auto;
+/* Estilos para el NewPostForm */
+.container {
+  max-width: auto;
+  padding: 20px;
 }
 
-.new-post-form h2 {
-  margin-bottom: 10px;
+h2 {
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.new-post-form label {
-  display: block;
-  margin-bottom: 10px;
+.form-label {
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.new-post-form input,
-.new-post-form textarea {
+.form-control {
+  font-size: 16px;
+}
+
+/* Estilos para el TextEditor */
+.text-editor-container {
   width: 100%;
-  padding: 5px;
-  margin-bottom: 10px;
+  height: 70vh;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  background-color: white;
 }
 
-.new-post-form button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
+/* Estilos para el botón "Crear Publicación" */
+.btn-primary {
+  font-size: 14px;
+  padding: 5px 15px;
 }

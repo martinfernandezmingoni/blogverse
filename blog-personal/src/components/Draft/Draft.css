@@ -1,0 +1,13 @@
+.text-editor-container {
+  width: 100%;
+  height: 100%;
+}
+
+.text-editor-wrapper {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.text-editor-content {
+  min-height: 300px;
+}

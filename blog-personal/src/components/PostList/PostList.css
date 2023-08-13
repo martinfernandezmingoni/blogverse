@@ -1,3 +1,39 @@
 .post-list-container {
   margin: 20px;
 }
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.post-title {
+  flex: 1;
+  font-size: 18px;
+}
+
+.post-author {
+  font-size: 14px;
+  color: #888;
+}
+
+.view-button {
+  font-size: 10px!important;
+  color: #fff!important;
+  padding: 5px 10px!important;
+  border-radius: 5px!important;
+  cursor: pointer!important;
+  text-decoration: none!important;
+}
+
+.view-button:hover {
+  background-color: #0056b3;
+}
